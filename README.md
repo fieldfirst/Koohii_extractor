@@ -5,6 +5,7 @@ There is the site called "Koohii" where its communities are dedicate themselves 
 But, grabbing a mnemonic one by one from the site is troublesome and inefficient so I decide to devise a simple extractor script for this purpose. It's base on curl and sed commands.
 
 **Instructions**:
+
 1. Edit the *extractor.sh*, by add your own account's credential.
 
 2. Set the *total*, thus this will define a maximum number of character(s) you want.
