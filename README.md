@@ -6,6 +6,11 @@ But, grabbing a mnemonic one by one from the site is troublesome and inefficient
 
 **Instructions**:
 1. Edit the *extractor.sh*, by add your own account's credential.
+
 2. Set the *total*, thus this will define a maximum number of character(s) you want.
+
 3. Set the *n*, to define a maximum number of mnemonic(s)/storie(s) you want for each character.
+
 4. You can also edit the *filter.sed* to remove additional html tag(s).
+
+5. The output format is *CSV*

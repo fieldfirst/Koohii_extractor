@@ -2,7 +2,7 @@
 IFS=$'\n';
 
 # Login (by set a cookies)
-wget --post-data="username=YourUserName&password=YourPasswordreferer=@homepage&rememberme=1" --save-cookies=koohii.cookies --keep-session-cookies http://kanji.koohii.com/login -O /dev/null;
+wget --post-data="username=YourUserName&password=YourPassword&referer=@homepage&rememberme=1" --save-cookies=koohii.cookies --keep-session-cookies http://kanji.koohii.com/login -O /dev/null;
 
 
 # Number of story(ies) for each row
